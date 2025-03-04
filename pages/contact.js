@@ -1,19 +1,17 @@
-// pages/contact.js
 export default function Contact() {
-    return (
-      <section className="section" data-aos="fade-up">
-        <h1>Contact</h1>
-        <div className="content">
-          <div className="text">
-            <p>
-              Pour toute demande d'information ou de partenariat, n'hésitez pas à nous contacter via le formulaire ci-dessous ou par téléphone.
-            </p>
-          </div>
-          <div className="image-placeholder">
-            {/* Espace réservé pour une image ou un formulaire stylisé */}
-          </div>
+  return (
+    <section className="contact-section" data-aos="fade-up">
+      <h1>Contact</h1>
+      <div className="contact-content">
+        <div className="contact-text">
+          <p>
+            Pour toute demande d'information ou de partenariat, n'hésitez pas à nous contacter via le formulaire ci-dessous ou par téléphone. Nous sommes à l'écoute pour transformer vos idées en projets concrets.
+          </p>
         </div>
-      </section>
-    )
-  }
-  
+        <div className="contact-form">
+          {/* Intégrez ici votre formulaire stylisé */}
+        </div>
+      </div>
+    </section>
+  )
+}
